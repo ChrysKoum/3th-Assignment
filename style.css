@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* Header Navbar */
+
+    #header-nav{
+        background-color: rgb(215, 140, 83);
+    }
+
+    .nav-link:hover{
+        background-color: rgba(244, 244, 244, 0.9)
+    }
+
+/* End of Header Navbar */
+
+/* Main Body */
+h1 {
+    margin: 2rem 0;
+    font-size: 3rem;
+}
+
+p {
+    margin-top: 2.5rem;
+    padding: 0 1em;
+    font-size: 1rem;
+}
+
+section {
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: rgb(179, 177, 177);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3%;
+    overflow: auto;
+}
+
+section span {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    position: relative;
+    float: right;
+    padding: 0.25em 1.5em;
+    font-size: 1.5rem;
+}
+
+#spanChicken {
+    background-color: rgb(183, 82, 99);
+}
+
+#spanBeef {
+    background-color: rgb(174, 11, 11);
+    color: white;
+}
+
+#spanSushi {
+    background-color: rgb(234, 210, 72);
+}
+
+/* End of Main Body */
